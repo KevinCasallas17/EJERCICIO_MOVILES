@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+figure{
+    display: grid;
+    place-content: center;
+    height: 80%;
+    height: auto;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#logo{
+    height: 40%;
+    background-color: beige;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+img{
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+}
+
+
+#botones{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    background-color: white;
+    height: 60%;
+}   
+    #entrar{
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+        .btns{
+            border: 2px solid orange;
+            color: orange;
+            background-color: transparent;
+            padding: 10px 22px;
+            width: 240px;
+            border-radius: 20px;
+        }  
+        span{
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+#redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+    a{
+        text-decoration: none;
+        background-color: rgba(216, 215, 215, 0.724);
+        display: grid;
+        place-content: center;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+    }
+    .btn_redes{
+        color: orange;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
